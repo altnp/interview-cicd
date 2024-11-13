@@ -2,7 +2,7 @@ using Api;
 
 namespace Test;
 
-public class UnitTest1
+public class EchoTests
 {
     [Fact]
     public void EchoHello_WhenProvidedHello()
