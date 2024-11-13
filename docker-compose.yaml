@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  react-app:
+    build:
+      context: ./react-web-app
+      dockerfile: Dockerfile
+    ports:
+      - "5001:80"
+    depends_on:
+      - dotnet-api
+
+  dotnet-api:
+    build:
+      context: ./dotnet-api
+      dockerfile: Dockerfile
+    ports:
+      - "5002:8080"
