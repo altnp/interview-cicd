@@ -1,0 +1,70 @@
+# Dotnet specific
+[Bb]in/
+[Oo]bj/
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+.history/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.suo
+
+# NPM folders
+node_modules/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Logs
+*.log
+Logs/
+
+# Dotnet build output
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Local NuGet cache
+packages/
+*.nupkg
+*.snupkg
+
+# Dotnet dependencies
+.nuget/
+**/packages/*
+
+# Resharper
+_ReSharper*/
+resharperlog
+
+# Test output
+TestResults/
+
+# Publish output
+.publish/
